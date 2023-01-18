@@ -18,9 +18,13 @@ class FormalTableViewCell: UITableViewCell {
     @IBOutlet weak var onepointText: UILabel!
     @IBOutlet weak var apparelLink: UILabel!
     
+<<<<<<< HEAD
+    
+=======
     var realm: Realm!
     
     var formalData = ApparelDataModel()
+>>>>>>> 6fc43a8efb2f0cab2022174cbe7a14f6eb313ba7
     
     override func awakeFromNib() {
         super.awakeFromNib()
